@@ -1,0 +1,70 @@
+.title {
+  font-family: var(--font-primary);
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--grey-scale2);
+}
+
+.title.lg {
+  font-size: clamp(2.375rem, 5vw, 2.75rem);
+}
+
+.title.md {
+  font-size: clamp(1.3rem, 4vw, 2rem);
+}
+
+.title.sm {
+  font-size: clamp(0.7rem, 4vw, 1.1rem);
+}
+
+.title.headersModal {
+  color: #fff;
+}
+
+.title.modal {
+  font-size: clamp(0.9rem, 4vw, 1.4rem);
+  color: var(--primary-color);
+}
+
+.title.modal.two {
+  font-size: clamp(0.6rem, 4vw, 1rem);
+}
+
+.paragraph {
+  font-size: clamp(0.4rem, 4vw, 0.8rem);
+  font-weight: 400;
+  color: var(--grey-scale2);
+  line-height: 2.1;
+  font-family: var(--font-primary);
+}
+.paragraph.techs {
+  font-size: clamp(0.3rem, 4vw, 0.6rem);
+}
+
+.anchor {
+  font-family: var(--font-primary);
+  font-size: clamp(0.4rem, 3vw, 1rem);
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.875rem;
+  transition: 1s;
+}
+
+.anchor:hover {
+  border-bottom: 1px solid var(--primary-color-hover);
+}
+.nav {
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: var(--font-primary);
+  color: var(--grey-scale2);
+  line-height: 1.0588rem;
+}
+
+.username {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.4063rem;
+  color: var(--primary-color);
+}
